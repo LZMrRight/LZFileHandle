@@ -15,6 +15,7 @@
 		84AD6C681CB655AF0069F05C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AD6C661CB655AF0069F05C /* LaunchScreen.storyboard */; };
 		84AD6C731CB655AF0069F05C /* NSFileManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD6C721CB655AF0069F05C /* NSFileManagerDemoTests.m */; };
 		84AD6C7E1CB655AF0069F05C /* NSFileManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD6C7D1CB655AF0069F05C /* NSFileManagerDemoUITests.m */; };
+		84AD6C8D1CB665450069F05C /* LZFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AD6C8C1CB665450069F05C /* LZFileHandle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		84AD6C791CB655AF0069F05C /* NSFileManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSFileManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AD6C7D1CB655AF0069F05C /* NSFileManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSFileManagerDemoUITests.m; sourceTree = "<group>"; };
 		84AD6C7F1CB655AF0069F05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AD6C8B1CB665450069F05C /* LZFileHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZFileHandle.h; sourceTree = "<group>"; };
+		84AD6C8C1CB665450069F05C /* LZFileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZFileHandle.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				84AD6C5C1CB655AF0069F05C /* AppDelegate.m */,
 				84AD6C5E1CB655AF0069F05C /* ViewController.h */,
 				84AD6C5F1CB655AF0069F05C /* ViewController.m */,
+				84AD6C8B1CB665450069F05C /* LZFileHandle.h */,
+				84AD6C8C1CB665450069F05C /* LZFileHandle.m */,
 				84AD6C611CB655AF0069F05C /* Main.storyboard */,
 				84AD6C641CB655AF0069F05C /* Assets.xcassets */,
 				84AD6C661CB655AF0069F05C /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				84AD6C601CB655AF0069F05C /* ViewController.m in Sources */,
 				84AD6C5D1CB655AF0069F05C /* AppDelegate.m in Sources */,
 				84AD6C5A1CB655AF0069F05C /* main.m in Sources */,
+				84AD6C8D1CB665450069F05C /* LZFileHandle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

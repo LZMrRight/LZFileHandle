@@ -16,12 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+//    [self createFileWithName:@"userInfo.text"];
+//    [self writeToFileWithContent:@"小胖子"];
+   
+//    NSString *filePath = [[self createPath] stringByAppendingPathComponent:@"file.text"];
+//    [self readFileFromPath:filePath]
+    
+//    NSString *filePath = [[self createPath] stringByAppendingPathComponent:@"file.text"];
+//    BOOL is = [self isFileExisting:filePath];
+//    NSLog(@"%llu",[self fileSizeAtFilePath:filePath]);
+    
 }
-
 @end
